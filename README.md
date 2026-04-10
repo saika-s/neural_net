@@ -9,7 +9,6 @@ It is a **binary classification problem**:
 
 The model is built using **Logistic Regression** on the Bank Marketing Dataset.
 
----
 
 ## Dataset Description
 
@@ -21,8 +20,6 @@ The dataset contains information about past customers.
 - Feature types: numerical and categorical
 - Contains class imbalance (majority: non-subscribers)
 
----
-
 ## Data Preprocessing
 
 The dataset was cleaned and transformed before model training:
@@ -33,7 +30,6 @@ The dataset was cleaned and transformed before model training:
   - Binary encoding
   - One-hot encoding
 
----
 
 ## Handling Class Imbalance
 
@@ -41,17 +37,13 @@ The dataset is imbalanced, with significantly fewer positive cases (subscribers)
 
 To address this:
 
-- Data is balanced. SMOTE is used on training data
+- Data is balanced using SMOTE on training data
 - This helps improve minority class learning by generating synthetic samples
-
----
 
 ## Model Training
 
 - Model: Logistic Regression
 - Trained model after being preprocessed, balanced on the training data
-
----
 
 ## Evaluation 
 
@@ -60,8 +52,6 @@ The model was evaluated using:
 - Accuracy
 - Precision, Recall, F1-score
 - Confusion Matrix
-
----
 
 ## Results
 
