@@ -1,16 +1,16 @@
 # Bank Term Deposit Subscription
 
-## Problem Overview
+## Overview
 
 This project focuses on predicting whether a customer will subscribe to a bank term deposit based on customer attributes and related information.
 It is a **binary classification problem**:
-- '1' → Customer subscribes to a term deposit  
-- '0' → Customer does not subscribe  
+- 1 → Customer subscribes to a term deposit  
+- 0 → Customer does not subscribe  
 
 The model is built using **Logistic Regression** on the Bank Marketing Dataset.
 
 
-## Dataset Description
+## Dataset 
 
 The dataset contains information about past customers.
 
@@ -45,18 +45,10 @@ To address this:
 - Model: Logistic Regression
 - Trained model after being preprocessed, balanced on the training data
 
-## Evaluation 
-
-The model was evaluated using:
-
-- Accuracy
-- Precision, Recall, F1-score
-- Confusion Matrix
-
 ## Results
 
 - The model performs better in predicting the majority class, which is non-subscribers
 - Performance on the minority class (subscribers) is comparatively lower
 - This indicates that:
   - The dataset has class imbalance
-  - Logistic Regression may underfit complex behavioral patterns
+  - Logistic Regression may underfit complex patterns
