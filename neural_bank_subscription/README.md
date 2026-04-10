@@ -9,7 +9,6 @@ It is a **binary classification problem**:
 
 The model is built using **Logistic Regression** on the Bank Marketing Dataset.
 
-
 ## Dataset 
 
 The dataset contains information about past customers.
